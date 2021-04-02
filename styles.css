@@ -615,11 +615,14 @@ figcaption span {
     .form-search {
         display: flex;
         margin: 30px 0 30px 0;
+        position: relative;
     }
     .input-button {
         display: none;
     }
     .button-loupe {
+        display: block;
+        position: absolute;
         border-radius: 10px;
         background: #0065FC;
         border: none;
