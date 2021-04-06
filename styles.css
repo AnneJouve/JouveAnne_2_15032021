@@ -180,6 +180,10 @@ label {
     display: flex;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 #section-hebergements h2 {
     margin-top: 50px;
 }
@@ -226,6 +230,7 @@ label {
 
 .carte-hotel figcaption {
     padding: 5px 0 5px 5px;
+    overflow: hidden;
 }
 
 /*Les plus populaires*/
@@ -471,6 +476,10 @@ figcaption span {
         padding: 20px;
         margin-right: 20px;
     }
+    .carte-hotel figcaption {
+        white-space: nowrap;
+        padding-left: 2px;
+    }
     .hebergements-populaires {
         padding: 20px;
     }
@@ -566,7 +575,7 @@ figcaption span {
     }
   }
 
-  @media screen and (min-width: 375px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     h1 {
         font-size: 1.2rem;
     }
